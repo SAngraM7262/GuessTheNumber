@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>I have a number in my mind between 1 and 100, can you guess it</h1>
+        <div id="input-container">
+            <input type="number" name="number" id="number-input" min="1" max="100" placeholder="Enter your number">
+            <div class="button" id="submit">Submit</div>
+        </div>
+        <h2 id="lives-text">
+            Lives : <span id="lives">10</span>
+            <div id="message"></div>
+        </h2>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
